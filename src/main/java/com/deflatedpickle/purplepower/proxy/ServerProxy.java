@@ -4,7 +4,7 @@ import com.deflatedpickle.purplepower.init.ModItems;
 
 public class ServerProxy implements CommonProxy{
     @Override
-    public void init() {
+    public void preInit() {
         ModItems.init();
     }
 }

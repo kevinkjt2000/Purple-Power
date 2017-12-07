@@ -25,13 +25,13 @@ public class PurplePower {
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         logger.info("Starting preInit.");
+        proxy.preInit();
         logger.info("Finished preInit.");
     }
 
     @EventHandler
     public void init(FMLInitializationEvent event) {
         logger.info("Starting Init.");
-        proxy.init();
         logger.info("Finished Init.");
     }
 
