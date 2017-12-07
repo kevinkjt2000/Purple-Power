@@ -1,5 +1,6 @@
 package com.deflatedpickle.purplepower;
 
+import com.deflatedpickle.purplepower.init.ModCreativeTabs;
 import com.deflatedpickle.purplepower.proxy.CommonProxy;
 
 import net.minecraftforge.fml.common.Mod;
@@ -25,6 +26,7 @@ public class PurplePower {
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         logger.info("Starting preInit.");
+        ModCreativeTabs.init();
         proxy.preInit();
         logger.info("Finished preInit.");
     }
