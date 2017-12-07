@@ -1,0 +1,16 @@
+[
+{
+  "modid": "purplepower",
+  "name": "Purple Power",
+  "description": "A mod inspired by RedPower 2 and Blue Power.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/DeflatedPickle/Purple-Power",
+  "updateUrl": "",
+  "authorList": ["DeflatedPickle"],
+  "credits": "Mojang, Minecraft, Forge, FML",
+  "logoFile": "logo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]
