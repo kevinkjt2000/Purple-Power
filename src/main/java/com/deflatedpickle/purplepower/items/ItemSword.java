@@ -7,7 +7,7 @@ import vazkii.arl.item.ItemModSword;
 public class ItemSword extends ItemModSword {
     public ItemSword(String name, ToolMaterial material) {
         super(name, material);
-        setCreativeTab(ModCreativeTabs.tabCombat);
+        setCreativeTab(ModCreativeTabs.COMBAT);
     }
 
     @Override
