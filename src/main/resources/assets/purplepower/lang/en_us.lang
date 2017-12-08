@@ -1,0 +1,10 @@
+language.name=English
+language.region=United States
+language.code=en_us
+
+// Tabs
+itemGroup.purplepower_combat=Purple Power: Combat
+
+// Items
+    // Swords
+item.purplepower:ruby_sword.name=Ruby Sword
