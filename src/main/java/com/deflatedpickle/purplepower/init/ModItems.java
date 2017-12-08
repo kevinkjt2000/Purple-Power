@@ -13,7 +13,19 @@ public class ModItems {
 
     public static Item RUBY_SWORD;
 
+    public static Item SAPPHIRE_SWORD;
+
+    public static Item EMERALD_SWORD;
+
+    public static Item AMETHYST_SWORD;
+
     public static void init() {
         RUBY_SWORD = new ItemSword("ruby_sword", RUBY);
+
+        SAPPHIRE_SWORD = new ItemSword("sapphire_sword", SAPPHIRE);
+
+        EMERALD_SWORD = new ItemSword("emerald_sword", EMERALD);
+
+        AMETHYST_SWORD = new ItemSword("amethyst_sword", AMETHYST);
     }
 }

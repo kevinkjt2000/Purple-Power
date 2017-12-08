@@ -8,3 +8,6 @@ itemGroup.purplepower_combat=Purple Power: Combat
 // Items
     // Swords
 item.purplepower:ruby_sword.name=Ruby Sword
+item.purplepower:sapphire_sword.name=Sapphire Sword
+item.purplepower:emerald_sword.name=Emerald Sword
+item.purplepower:amethyst_sword.name=Amethyst Sword
