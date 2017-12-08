@@ -9,7 +9,7 @@ public class CreativeTab extends CreativeTabs {
     private ItemStack icon;
 
     public CreativeTab(String name, ItemStack icon) {
-        super("tab_" + Reference.MOD_ID + "_" + name);
+        super(Reference.MOD_ID + "_" + name);
         this.name = name;
         this.icon = icon;
     }
