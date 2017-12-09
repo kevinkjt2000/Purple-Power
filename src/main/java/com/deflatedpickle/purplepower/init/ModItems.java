@@ -1,5 +1,6 @@
 package com.deflatedpickle.purplepower.init;
 
+import com.deflatedpickle.purplepower.items.ItemSpade;
 import com.deflatedpickle.purplepower.items.ItemSword;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
@@ -12,6 +13,7 @@ public class ModItems {
     public static ToolMaterial AMETHYST = EnumHelper.addToolMaterial("AMETHYST", 2,750, 6.0f, 2.0f, 18);
 
     public static Item RUBY_SWORD;
+    public static Item RUBY_SHOVEL;
 
     public static Item SAPPHIRE_SWORD;
 
@@ -21,6 +23,7 @@ public class ModItems {
 
     public static void init() {
         RUBY_SWORD = new ItemSword("ruby_sword", RUBY);
+        RUBY_SHOVEL = new ItemSpade("ruby_shovel", 1.5f, -3.0f, RUBY);
 
         SAPPHIRE_SWORD = new ItemSword("sapphire_sword", SAPPHIRE);
 
