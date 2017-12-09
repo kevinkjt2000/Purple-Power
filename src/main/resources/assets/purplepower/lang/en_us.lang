@@ -9,6 +9,14 @@ itemGroup.purplepower_tools=Purple Power: Tools
 // Items
     // Swords
 item.purplepower:ruby_sword.name=Ruby Sword
+item.purplepower:ruby_shovel.name=Ruby Shovel
+
 item.purplepower:sapphire_sword.name=Sapphire Sword
+item.purplepower:sapphire_shovel.name=Sapphire Shovel
+
 item.purplepower:emerald_sword.name=Emerald Sword
+item.purplepower:emerald_shovel.name=Emerald Shovel
+
 item.purplepower:amethyst_sword.name=Amethyst Sword
+item.purplepower:amethyst_shovel.name=Amethyst Shovel
+
