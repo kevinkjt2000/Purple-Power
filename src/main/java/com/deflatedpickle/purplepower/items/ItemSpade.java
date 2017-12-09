@@ -26,6 +26,11 @@ public class ItemSpade extends ItemModTool {
     }
 
     @Override
+    public String getModNamespace() {
+        return Reference.MOD_ID;
+    }
+
+    @Override
     public boolean canHarvestBlock(IBlockState blockIn) {
         return Items.IRON_SHOVEL.canHarvestBlock(blockIn);
     }
@@ -33,10 +38,5 @@ public class ItemSpade extends ItemModTool {
     @Override
     public EnumActionResult onItemUse(EntityPlayer playerIn, World worldIn, BlockPos pos, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
         return Items.IRON_SHOVEL.onItemUse(playerIn, worldIn, pos, hand, facing, hitX, hitY, hitZ);
-    }
-
-    @Override
-    public String getModNamespace() {
-        return Reference.MOD_ID;
     }
 }
