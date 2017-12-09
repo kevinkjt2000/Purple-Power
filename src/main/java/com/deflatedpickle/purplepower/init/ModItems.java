@@ -19,6 +19,7 @@ public class ModItems {
     public static Item SAPPHIRE_SHOVEL;
 
     public static Item EMERALD_SWORD;
+    public static Item EMERALD_SHOVEL;
 
     public static Item AMETHYST_SWORD;
 
@@ -30,6 +31,7 @@ public class ModItems {
         SAPPHIRE_SHOVEL = new ItemSpade("sapphire_shovel", 1.5f, -3.0f, SAPPHIRE);
 
         EMERALD_SWORD = new ItemSword("emerald_sword", EMERALD);
+        EMERALD_SHOVEL = new ItemSpade("emerald_shovel", 1.5f, -3.0f, EMERALD);
 
         AMETHYST_SWORD = new ItemSword("amethyst_sword", AMETHYST);
     }
