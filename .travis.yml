@@ -1,3 +1,4 @@
+language: java
 install: ./gradlew setupCiWorkspace
 script: ./gradlew build
 before_cache:
